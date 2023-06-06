@@ -1447,3 +1447,20 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+
+
+/* manually added by aviiciii */
+
+
+
+#faq-box{
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.section-title{
+  /* not selectable */
+  user-select: none;
+}
