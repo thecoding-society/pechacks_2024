@@ -1456,7 +1456,8 @@ section {
 
 #faq-box{
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 6px;
+  box-shadow: none;
   
 }
 
