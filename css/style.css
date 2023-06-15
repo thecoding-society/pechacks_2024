@@ -1471,7 +1471,13 @@ section {
   text-align: left;
   padding-left: 50px;
   padding-right: 40px;
+  transition: all 0.4s;
+  &:hover{
+    background-color: #313131;
+  }
 }
+
+
 
 .section-title{
   /* not selectable */
