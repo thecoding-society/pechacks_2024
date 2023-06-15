@@ -224,6 +224,7 @@ h6 {
 }
 
 .navbar a,
+.navbar a:hover,
 .navbar a:focus {
   display: flex;
   align-items: center;
@@ -1559,4 +1560,16 @@ section {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+  .proposal-p{
+    margin: 0px 10px;
+  }
+}
+
+
+.prize-box{
+  transition: all 0.6s;
+}
+
+.proposal-p{
+  margin: 0px 60px;
 }
