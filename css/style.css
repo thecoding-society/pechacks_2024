@@ -1617,3 +1617,15 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
 }
+
+
+.half-width{
+  width: 50%;
+}
+#faq-question{
+  font-size: 22px; 
+  font-weight: bold;
+}
+#faq-answer{
+  font-size: 18px;
+}
