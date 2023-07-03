@@ -586,6 +586,23 @@ section {
   margin-bottom: 0;
 }
 
+.about-para{
+  font-size: 20px;
+}
+.about-para span{
+  color: #cc1616;
+  font-weight: 600;
+}
+
+.prize-pool{
+  font-size: 22px;
+  font-weight: 600;
+}
+.prize-pool span{
+  color: #cc1616;
+  font-weight: 800;
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -776,6 +793,10 @@ section {
 .cta .cta-btn:hover {
   background: #cc1616;
   border: 2px solid #cc1616;
+}
+
+.sponsor-brochure{
+  margin-right: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -1479,7 +1500,9 @@ section {
   }
 }
 
-
+.icon-box .rule {
+  text-align: left;
+}
 
 .section-title{
   /* not selectable */
@@ -1571,6 +1594,26 @@ section {
   transition: all 0.6s;
 }
 
+#prize-header{
+  font-size: 26px; 
+  font-weight: bold;
+}
+
+#prize-body{
+  font-size: 20px;
+}
+#prize-body span{
+  font-style: italic; 
+  font-weight: bolder;
+}
+
 .proposal-p{
   margin: 0px 60px;
+}
+
+.non-selectable{
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
