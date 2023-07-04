@@ -1471,10 +1471,6 @@ section {
 
 /* manually added by aviiciii */
 
-#rule {
-	font-size: 17px;
-	font-weight: normal;
-}
 
 #faq-box {
 	padding: 20px;
@@ -1524,6 +1520,12 @@ section {
 }
 
 
+
+#rule {
+	font-size: 17px;
+	font-weight: normal;
+}
+
 #rules-box {
 	padding: 20px;
 	border-radius: 6px;
@@ -1533,8 +1535,12 @@ section {
 	padding-right: 40px;
 	transition: all 0.4s;
 	&:hover {
-		background-color: #313131;
+		background-color: #fff;
+		color: #000;
 	}
+}
+#rules-box p{
+	color: inherit;
 }
 
 .icon-box .rule {
