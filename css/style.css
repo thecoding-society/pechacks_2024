@@ -1482,6 +1482,47 @@ section {
 	box-shadow: none;
 	margin: 10px;
 }
+#faq-box:hover{
+	background-color: white;
+	color: black;
+}
+
+#faq-box p {
+	color: inherit;
+	cursor: default;
+}
+
+#faq-question {
+	font-size: 22px;
+	font-weight: bold;
+}
+#faq-answer {
+	font-size: 18px;
+}
+
+#faq-box-contact {
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: none;
+	margin: 10px;
+}
+#faq-box-contact:hover{
+	background-color: #fff;
+	color: #ff0000;
+}
+
+#faq-contact-question {
+	font-size: 22px;
+	font-weight: bold;
+}
+#faq-contact-answer {
+	font-size: 18px;
+}
+#faq-box-contact p {
+	color: inherit;
+	cursor: pointer;
+}
+
 
 #rules-box {
 	padding: 20px;
@@ -1614,10 +1655,4 @@ section {
 .half-width {
 	width: 50%;
 }
-#faq-question {
-	font-size: 22px;
-	font-weight: bold;
-}
-#faq-answer {
-	font-size: 18px;
-}
+
