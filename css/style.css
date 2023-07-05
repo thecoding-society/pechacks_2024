@@ -1614,8 +1614,14 @@ section {
 	font-weight: bolder;
 }
 
-.proposal-p {
+.cta h3 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#proposal-p {
 	margin: 0px 60px;
+	font-size: 20px;
 }
 
 .non-selectable {
