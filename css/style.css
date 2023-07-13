@@ -1620,8 +1620,19 @@ section {
 }
 
 #proposal-p {
+	display: inline;
 	margin: 0px 60px;
 	font-size: 20px;
+	/* add background color translucent */
+	background-color: rgba(20, 20, 20, 0.8);
+	color: rgb(225, 225, 225);
+	margin-bottom: 20px;
+	font-weight: 550;
+	
+	
+}
+.sponsor-btns{
+	margin-top: 30px;
 }
 
 .non-selectable {
@@ -1662,7 +1673,8 @@ section {
 		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
 	}
-	.proposal-p {
+	#proposal-p {
 		margin: 0px 10px;
+		
 	}
 }
