@@ -1646,6 +1646,18 @@ section {
 	width: 50%;
 }
 
+.dummy{
+	height:18.75;
+	padding-left:130px;
+
+}
+.wwe{
+	height:12.5rem;
+	margin-left: 130px;
+}
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
@@ -1676,5 +1688,51 @@ section {
 	#proposal-p {
 		margin: 0px 10px;
 		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section{
+		padding: 40px 0px;
+	}
+	.half-width{
+		width: 100%;
+	}
+	.container{
+		width: 94%;
+	}
+	.timeline {
+		width: 100%;
+	}
+	.timeline-middle {
+		display: none;
+	}
+	.main-middle {
+		opacity: 1;
+	}
+	.timeline-circle {
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 auto;
+	}
+	
+	#proposal-p {
+		margin: 0px 10px;
+	}
+	#about-img{
+		display: none;
+	}
+	#rules-box{
+		padding:0;
+	}
+	.wwe{
+		height:8rem;
+		/* center img */
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+
 	}
 }
