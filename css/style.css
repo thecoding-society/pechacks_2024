@@ -1732,7 +1732,19 @@ section {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		
-
+	}
+	.sponsor-brochure{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+	}
+	.contact-cta{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
 	}
 }
