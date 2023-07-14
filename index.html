@@ -866,8 +866,15 @@
 							</div>
 
 							<form action="https://api.web3forms.com/submit" method="post">
+                
 								<!-- access key -->
 								<input type="hidden" name="access_key" value="bea2e9ae-97e6-4f37-a6fb-594a51b359c1" />
+                <!-- redirect url -->
+                <input type="hidden" name="redirect" value="https://pechacks.org/formsubmitted.html">
+                <!-- bot preventer -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <!-- from name -->
+                <input type="hidden" name="from_name" value="Website Contact Form">
 
 								<div class="row">
 									<div class="col-md-6 form-group">
