@@ -1646,6 +1646,15 @@ section {
 	width: 50%;
 }
 
+.dummy{
+	height:18.75;
+	padding-left:130px;
+
+}
+.wwe{
+	height:12.5rem;
+}
+
 
 
 /* MEDIA QUERIES */
