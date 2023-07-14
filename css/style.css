@@ -1692,11 +1692,14 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+	section{
+		padding: 40px 0px;
+	}
 	.half-width{
 		width: 100%;
 	}
 	.container{
-		width: 90%;
+		width: 94%;
 	}
 	.timeline {
 		width: 100%;
@@ -1725,6 +1728,11 @@ section {
 	}
 	.wwe{
 		height:8rem;
-		margin-left:0;
+		/* center img */
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+
 	}
 }
