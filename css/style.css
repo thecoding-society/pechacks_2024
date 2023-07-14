@@ -1653,6 +1653,7 @@ section {
 }
 .wwe{
 	height:12.5rem;
+	margin-left: 130px;
 }
 
 
@@ -1721,5 +1722,9 @@ section {
 	}
 	#rules-box{
 		padding:0;
+	}
+	.wwe{
+		height:8rem;
+		margin-left:0;
 	}
 }
