@@ -429,8 +429,8 @@ h6 {
 #hero {
 	width: 100%;
 	height: calc(100vh - 110px);
-	background: url("../img/hero-bg.jpg") top center;
-	background-size: cover;
+	background: url("../img/pec-2.jpg") top center;
+	background-size: cover;	
 	position: relative;
 }
 
