@@ -588,6 +588,7 @@ section {
 
 .about-para {
 	font-size: 20px;
+	text-align: justify;
 }
 .about-para span {
 	color: #cc1616;
