@@ -429,7 +429,7 @@ h6 {
 #hero {
 	width: 100%;
 	height: calc(100vh - 110px);
-	background: url("../img/pec-2.jpg") top center;
+	background: url("../img/pec-arch.jpg") top center;
 	background-size: cover;	
 	position: relative;
 }
@@ -767,7 +767,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-	background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pec-3.jpeg") fixed center center;
+	background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pec-audi.jpeg") fixed center center;
 	background-size: cover;
 	padding: 120px 0;
 }
