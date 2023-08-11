@@ -1630,10 +1630,10 @@ section {
 	margin: 0px 60px;
 	font-size: 20px;
 	/* add background color translucent */
-	background-color: rgba(20, 20, 20, 0.8);
+	/* background-color: rgba(20, 20, 20, 0.8); */
 	color: rgb(225, 225, 225);
 	margin-bottom: 20px;
-	font-weight: 550;
+	font-weight: 1000;
 	
 	
 }
@@ -1726,6 +1726,7 @@ section {
 	}
 	#about-img{
 		display: none;
+		max-width: 125%;
 	}
 	#rules-box{
 		padding:0;
@@ -1751,4 +1752,8 @@ section {
 		justify-content: center;
 		margin: 0;
 	}
+}
+.img-fluid {
+    max-width: 115%;
+    height: auto;
 }
