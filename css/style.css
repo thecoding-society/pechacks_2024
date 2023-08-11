@@ -593,6 +593,7 @@ section {
 .about-para span {
 	color: #cc1616;
 	font-weight: 600;
+	font-size: 26px;
 }
 
 .prize-pool {
@@ -1652,7 +1653,7 @@ section {
 
 .dummy{
 	height:18.75;
-	padding-left:130px;
+	padding-left:40px;
 
 }
 .wwe{
@@ -1726,7 +1727,6 @@ section {
 	}
 	#about-img{
 		display: none;
-		max-width: 125%;
 	}
 	#rules-box{
 		padding:0;
@@ -1757,3 +1757,15 @@ section {
     max-width: 115%;
     height: auto;
 }
+
+.icon {
+	display: flex; /* Use flex display to align items horizontally */
+	align-items: center; /* Align items vertically in the center */
+}
+h6{
+	margin-bottom: 23px;
+}
+.icon img {
+	margin-left: 10px; /* Add some space between text and image */
+}
+
