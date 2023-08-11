@@ -12,7 +12,7 @@ a {
 }
 
 .imgg {
-	max-width: 50px;
+	max-width: 30px;
 	
 }
 a:hover {
@@ -1769,3 +1769,9 @@ h6{
 	margin-left: 10px; /* Add some space between text and image */
 }
 
+
+
+#partner-icon{
+	padding: 0;
+	margin: 0;
+}
