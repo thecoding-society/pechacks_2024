@@ -12,8 +12,7 @@ a {
 }
 
 .imgg {
-	max-width: 50px;
-	
+	max-width: 30px;
 }
 a:hover {
 	color: #e82d2d;
@@ -429,8 +428,8 @@ h6 {
 #hero {
 	width: 100%;
 	height: calc(100vh - 110px);
-	background: url("../img/pec-2.jpg") top center;
-	background-size: cover;	
+	background: url("../img/pec-arch.jpg") top center;
+	background-size: cover;
 	position: relative;
 }
 
@@ -759,7 +758,7 @@ section {
 	color: #fff;
 }
 
-#github-icon-box{
+#github-icon-box {
 	background-color: #fff;
 }
 
@@ -767,7 +766,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-	background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pec-3.jpeg") fixed center center;
+	background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pec-audi.jpeg") fixed center center;
 	background-size: cover;
 	padding: 120px 0;
 }
@@ -1632,13 +1631,10 @@ section {
 	font-size: 20px;
 	/* add background color translucent */
 	/* background-color: rgba(20, 20, 20, 0.8); */
-	color: rgb(225, 225, 225);
+	color: white;
 	margin-bottom: 20px;
 	font-weight: 1000;
-	
-	
 }
-
 
 .non-selectable {
 	user-select: none;
@@ -1651,17 +1647,35 @@ section {
 	width: 50%;
 }
 
-.dummy{
-	height:18.75;
-	padding-left:40px;
-
+.dummy {
+	height: 18.75;
+	padding-left: 40px;
 }
-.wwe{
-	height:12.5rem;
+.wwe {
+	height: 12.5rem;
 	margin-left: 130px;
 }
 
+.img-fluid {
+	max-width: 115%;
+	height: auto;
+}
 
+.icon {
+	display: flex; /* Use flex display to align items horizontally */
+	align-items: center; /* Align items vertically in the center */
+}
+h6 {
+	margin-bottom: 23px;
+}
+.icon img {
+	margin-left: 10px; /* Add some space between text and image */
+}
+
+#partner-icon {
+	padding: 0;
+	margin: 0;
+}
 
 /* MEDIA QUERIES */
 
@@ -1697,13 +1711,13 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-	section{
+	section {
 		padding: 40px 0px;
 	}
-	.half-width{
+	.half-width {
 		width: 100%;
 	}
-	.container{
+	.container {
 		width: 94%;
 	}
 	.timeline {
@@ -1721,31 +1735,31 @@ section {
 		top: 0;
 		margin: 0 auto;
 	}
-	
+
 	#proposal-p {
 		margin: 0px 10px;
 	}
-	#about-img{
+	#about-img {
 		display: none;
 	}
-	#rules-box{
-		padding:0;
+	#rules-box {
+		padding: 0;
 	}
-	.wwe{
-		height:8rem;
+	.wwe {
+		height: 8rem;
 		/* center img */
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.sponsor-brochure{
+	.sponsor-brochure {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		margin: 0;
 	}
-	.contact-cta{
+	.contact-cta {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -1753,19 +1767,3 @@ section {
 		margin: 0;
 	}
 }
-.img-fluid {
-    max-width: 115%;
-    height: auto;
-}
-
-.icon {
-	display: flex; /* Use flex display to align items horizontally */
-	align-items: center; /* Align items vertically in the center */
-}
-h6{
-	margin-bottom: 23px;
-}
-.icon img {
-	margin-left: 10px; /* Add some space between text and image */
-}
-
