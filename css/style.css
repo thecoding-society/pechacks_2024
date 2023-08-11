@@ -1726,6 +1726,7 @@ section {
 	}
 	#about-img{
 		display: none;
+		max-width: 125%;
 	}
 	#rules-box{
 		padding:0;
@@ -1751,4 +1752,8 @@ section {
 		justify-content: center;
 		margin: 0;
 	}
+}
+.img-fluid {
+    max-width: 115%;
+    height: auto;
 }
