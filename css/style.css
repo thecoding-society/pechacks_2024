@@ -1677,6 +1677,11 @@ h6 {
 	margin: 0;
 }
 
+#inasso-logo{
+	padding-top: 10px;
+	width: 380px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
@@ -1711,6 +1716,20 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
+
+	.about-para{
+		font-size: 1.1rem;
+	}
+	.about-para span{
+		font-size: 1.1rem;
+	}
+	#inasso{
+		font-size: 1.1rem;
+	}
+	#inasso-logo{
+		width: 280px;
+	}
+
 	section {
 		padding: 40px 0px;
 	}
@@ -1747,6 +1766,7 @@ h6 {
 	}
 	.wwe {
 		height: 8rem;
+		width: 8rem;
 		/* center img */
 		display: block;
 		margin-left: auto;
