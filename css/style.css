@@ -471,6 +471,11 @@ h6 {
 	color: #fff;
 }
 
+#whatsapp-link img{
+	width: 4.5%;
+	padding-left: 20px;
+}
+
 #hero .btn-get-started:hover {
 	background: #cc1616;
 	border-color: #cc1616;
@@ -480,6 +485,7 @@ h6 {
 	#hero {
 		background-attachment: fixed;
 	}
+	
 }
 
 @media (max-width: 768px) {
@@ -500,6 +506,10 @@ h6 {
 		font-size: 18px;
 		line-height: 24px;
 		margin-bottom: 30px;
+	}
+
+	#whatsapp-link{
+		display: none;
 	}
 }
 
