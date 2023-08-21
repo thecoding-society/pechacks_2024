@@ -471,9 +471,9 @@ h6 {
 	color: #fff;
 }
 
-#whatsapp-link img{
-	width: 5.5%;
-	padding-left: 20px;
+#whatsapp-logo{
+	padding-left:10px ;
+	width: 40px;
 }
 
 #hero .btn-get-started:hover {
