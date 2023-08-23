@@ -444,41 +444,55 @@ h6 {
 }
 
 #hero h1 {
-	margin: 0 0 10px 0;
-	font-size: 48px;
+	/* montserrat */
+	font-family: 'Montserrat', sans-serif;
+
+
+
+	margin: 0 0 30px 0;
+	font-size: 92px;
 	font-weight: 700;
 	line-height: 56px;
 	text-transform: uppercase;
 	color: #fff;
 }
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 #hero h2 {
+	font-family: 'Montserrat', sans-serif;
+
 	color: #eee;
-	margin-bottom: 30px;
-	font-size: 24px;
+	margin-bottom: 60px;
+	font-size: 30px;
 }
 
 #hero .btn-get-started {
 	font-family: "Raleway", sans-serif;
 	text-transform: uppercase;
-	font-weight: 500;
-	font-size: 14px;
+	font-weight: 600;
+	font-size: 18px;
 	letter-spacing: 0.5px;
 	display: inline-block;
 	padding: 10px 28px;
 	transition: 0.5s;
 	border: 2px solid #fff;
 	color: #fff;
+	margin-right: 20px;
 }
 
 #whatsapp-logo{
 	padding-left:10px ;
-	width: 40px;
+	width: 32px;
+	padding-bottom: 2px;
 }
 
 #hero .btn-get-started:hover {
 	background: #cc1616;
 	border-color: #cc1616;
+
 }
 
 @media (min-width: 1024px) {
