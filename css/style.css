@@ -463,7 +463,8 @@ h6 {
 
 #hero h2 {
 	font-family: 'Montserrat', sans-serif;
-
+	color: #f8f9fa;
+	font-style: italic;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
