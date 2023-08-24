@@ -1631,6 +1631,11 @@ section {
 	margin: 0px 20px 20px 20px;
 }
 
+.timeline-component:hover{
+	background-color: #cc1616; 
+    transform: translateY(-5px);
+}
+
 .prize-box {
 	transition: all 0.6s;
 }
