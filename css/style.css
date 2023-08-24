@@ -464,7 +464,6 @@ h6 {
 #hero h2 {
 	font-family: 'Montserrat', sans-serif;
 	color:#eee;
-
 	margin-bottom: 60px;
 	font-size: 30px;
 }
@@ -1630,6 +1629,12 @@ section {
 
 .timeline-component {
 	margin: 0px 20px 20px 20px;
+}
+
+.timeline-component:hover{
+	background-color: #cc1616; 
+    transform: translateY(-5px);
+	cursor: pointer;
 }
 
 .prize-box {
