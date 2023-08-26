@@ -146,7 +146,7 @@ h6 {
 }
 
 #header .logo img {
-	max-height: 55px;
+	max-height: 50px;
 }
 
 .scrolled-offset {
@@ -186,7 +186,7 @@ h6 {
 	align-items: center;
 	justify-content: space-between;
 	padding: 35px 20px 24px 15px;
-	font-size: 14px;
+	font-size: 15px;
 	color: #fff;
 	white-space: nowrap;
 	transition: 0.3s;
