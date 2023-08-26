@@ -124,7 +124,7 @@ h6 {
 	background: rgba(25, 25, 25, 0.95);
 	transition: all 0.5s;
 	z-index: 997;
-	height: 70px;
+	height: 80px;
 }
 
 #header.fixed-top {
@@ -146,11 +146,11 @@ h6 {
 }
 
 #header .logo img {
-	max-height: 40px;
+	max-height: 65px;
 }
 
 .scrolled-offset {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 /*--------------------------------------------------------------
