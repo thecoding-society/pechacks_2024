@@ -118,56 +118,13 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-	background: #191919;
-	font-size: 15px;
-	height: 40px;
-	padding: 0;
-	color: rgba(255, 255, 255, 0.6);
-}
-
-#topbar .contact-info a {
-	line-height: 0;
-	color: rgba(255, 255, 255, 0.6);
-	transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-	color: #fff;
-}
-
-#topbar .contact-info i {
-	color: #cc1616;
-	line-height: 0;
-	margin-right: 5px;
-}
-
-#topbar .contact-info .phone-icon {
-	margin-left: 15px;
-}
-
-#topbar .social-links a {
-	color: rgba(255, 255, 255, 0.6);
-	padding: 4px 12px;
-	display: inline-block;
-	line-height: 1px;
-	transition: 0.3s;
-}
-
-#topbar .social-links a:hover {
-	color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
 	background: rgba(25, 25, 25, 0.95);
 	transition: all 0.5s;
 	z-index: 997;
-	height: 70px;
+	height: 80px;
 }
 
 #header.fixed-top {
@@ -189,11 +146,11 @@ h6 {
 }
 
 #header .logo img {
-	max-height: 40px;
+	max-height: 50px;
 }
 
 .scrolled-offset {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -228,8 +185,8 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 25px 15px 24px 15px;
-	font-size: 14px;
+	padding: 34px 20px 24px 15px;
+	font-size: 15px;
 	color: #fff;
 	white-space: nowrap;
 	transition: 0.3s;
@@ -427,7 +384,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
 	width: 100%;
-	height: calc(100vh - 110px);
+	height: calc(100vh - 70px);
 	background: url("../img/pec-arch.jpeg") top center;
 	background-size: cover;
 	position: relative;
