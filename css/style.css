@@ -1496,6 +1496,9 @@ section {
 #footer .credits a {
 	color: #e82d2d;
 }
+#footer-copyright{
+	color:#cf9aff !important;
+}
 
 @media (max-width: 575px) {
 	#footer .footer-top .footer-info {
