@@ -605,6 +605,7 @@ section {
 	font-size: 28px;
 	font-weight: 700;
 	color: #ed5b5b;
+	text-align: center;
 }
 
 .why-us .box h4 {
@@ -613,6 +614,7 @@ section {
 	padding: 0;
 	margin: 20px 0;
 	color: #191919;
+	text-align: center;
 }
 
 .why-us .box p {
