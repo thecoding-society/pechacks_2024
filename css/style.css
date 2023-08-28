@@ -596,7 +596,8 @@ section {
 .why-us .box {
 	padding: 50px 30px;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-	transition: all ease-in-out 0.3s;
+	/* transition: all ease-in-out 0.1s; */
+	transition: all 0.3s ease-out 0s !important;
 }
 
 .why-us .box span {
@@ -604,6 +605,7 @@ section {
 	font-size: 28px;
 	font-weight: 700;
 	color: #ed5b5b;
+	text-align: center;
 }
 
 .why-us .box h4 {
@@ -612,6 +614,7 @@ section {
 	padding: 0;
 	margin: 20px 0;
 	color: #191919;
+	text-align: center;
 }
 
 .why-us .box p {
