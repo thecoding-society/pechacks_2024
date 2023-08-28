@@ -763,6 +763,10 @@ section {
 	padding: 10px 20px 10px 20px;
 }
 
+#prize-box:hover{
+	background-color: #cc1616;
+}
+
 .services .icon-box:hover .icon {
 	background: #fff;
 }
@@ -1632,10 +1636,6 @@ section {
 	background-color: #cc1616; 
     transform: translateY(-5px);
 	cursor: pointer;
-}
-
-.prize-box {
-	transition: all 0.6s;
 }
 
 #prize-header {
