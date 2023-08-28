@@ -497,10 +497,14 @@ section {
 	text-align: center;
 	padding: 30px 0;
 	position: relative;
+	user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	-ms-user-drag: none;
 }
 
 .section-title h2 {
-	font-size: 32px;
+	font-size: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -528,6 +532,34 @@ section {
 	position: relative;
 	z-index: 2;
 }
+
+.sponsor-tier{
+	text-align: center;
+	padding: 30px 0;
+	position: relative;
+	user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	-ms-user-drag: none;
+}
+
+.sponsor-tier h2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding-bottom: 0;
+	color: #191919;
+	position: relative;
+	z-index: 2;
+}
+
+#partners-section-title{
+	padding-bottom: 0;
+	
+}
+
+
 
 @media (max-width: 575px) {
 	.section-title h2 {
@@ -1546,10 +1578,7 @@ section {
 	text-align: left;
 }
 
-.section-title {
-	/* not selectable */
-	user-select: none;
-}
+
 
 /* timeline */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap");
