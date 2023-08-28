@@ -497,10 +497,14 @@ section {
 	text-align: center;
 	padding: 30px 0;
 	position: relative;
+	user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	-ms-user-drag: none;
 }
 
 .section-title h2 {
-	font-size: 32px;
+	font-size: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -528,6 +532,34 @@ section {
 	position: relative;
 	z-index: 2;
 }
+
+.sponsor-tier{
+	text-align: center;
+	padding: 30px 0;
+	position: relative;
+	user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	-ms-user-drag: none;
+}
+
+.sponsor-tier h2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding-bottom: 0;
+	color: #191919;
+	position: relative;
+	z-index: 2;
+}
+
+#partners-section-title{
+	padding-bottom: 0;
+	
+}
+
+
 
 @media (max-width: 575px) {
 	.section-title h2 {
@@ -669,9 +701,14 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
 	text-align: center;
-	padding: 40px 20px;
+	padding: 10px 20px;
 	transition: all ease-in-out 0.3s;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services .icon-box img {
+	width: 60%;
+	margin-bottom: 15px;
 }
 
 .services .icon-box .icon {
@@ -721,9 +758,9 @@ section {
 }
 
 .services .icon-box:hover {
-	background: #cc1616;
-	border-color: #cc1616;
-	padding: 40px 20px 40px 20px;
+	/* background: #cc1616;
+	border-color: #cc1616; */
+	padding: 10px 20px 10px 20px;
 }
 
 .services .icon-box:hover .icon {
@@ -1541,10 +1578,7 @@ section {
 	text-align: left;
 }
 
-.section-title {
-	/* not selectable */
-	user-select: none;
-}
+
 
 /* timeline */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap");
