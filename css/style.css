@@ -702,6 +702,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#winner-card{
+	max-width: 50%;
+	margin-right: 250px;
+	margin-left: 325px;
+}
+
 .services .icon-box {
 	text-align: center;
 	padding: 10px 20px;
@@ -1184,6 +1190,10 @@ section {
 
 .services .prize-card{
 	padding-top: 100px 0;
+}
+
+.services .prize-header{
+	font-weight: bold;
 }
 
 /*--------------------------------------------------------------
