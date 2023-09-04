@@ -440,6 +440,17 @@ h5{
 	border: 2px solid #fff;
 	color: #fff;
 	margin-right: 20px;
+	/* vertically center txt */
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+
+}
+
+.apply-devfolio{
+	padding: 0;
+	bo
 }
 
 
