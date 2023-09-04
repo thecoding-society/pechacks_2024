@@ -1730,6 +1730,13 @@ h6 {
 	width: 380px;
 }
 
+.links{
+	/* center vertically */
+	display: flex;
+
+
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
@@ -1776,7 +1783,7 @@ h6 {
 	#hero .btn-get-started{
 		font-size: 1rem;
 		margin: 10px;
-		padding: 10px 15px;
+		padding: 16px 15px;
 	}
 
 	.about-para{
