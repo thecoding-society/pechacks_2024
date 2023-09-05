@@ -448,12 +448,9 @@ h5{
 
 }
 
-.apply-devfolio{
-	padding: 0;
-	
-}
 
-.apply-devfolio:hover{
+
+#apply-devfolio:hover{
 	background-color: none;
 	border-color: none;
 }
