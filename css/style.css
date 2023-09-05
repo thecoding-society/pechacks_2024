@@ -1761,7 +1761,7 @@ h6 {
 .links{
 	/* center vertically */
 	display: flex;
-
+	margin-top: 20px;
 
 }
 
