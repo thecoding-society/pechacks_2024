@@ -1761,8 +1761,16 @@ h6 {
 .links{
 	/* center vertically */
 	display: flex;
+	margin-top: 20px;
 
+}
 
+.icon {
+	cursor: pointer;
+}
+
+.management{
+	width: 500px;
 }
 
 /* MEDIA QUERIES */
