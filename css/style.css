@@ -448,9 +448,26 @@ h5{
 
 }
 
+.apply-devfolio{
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	padding: 10px 28px;
+	transition: 0.5s;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-right: 20px;
+	/* vertically center txt */
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
 
-#apply-devfolio:hover{
+.apply-devfolio:hover{
 	background-color: none;
 	border-color: none;
 }
