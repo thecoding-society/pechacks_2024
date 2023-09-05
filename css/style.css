@@ -1892,4 +1892,9 @@ h6 {
 		justify-content: center;
 		margin: 0;
 	}
+	#winner-card{
+		max-width: 100%;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 }
