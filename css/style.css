@@ -1765,6 +1765,10 @@ h6 {
 
 }
 
+.icon {
+	cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
