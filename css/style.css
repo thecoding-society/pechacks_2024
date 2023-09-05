@@ -424,8 +424,13 @@ h5{
 #hero h2 {
 	font-family: 'Montserrat', sans-serif;
 	color:#eee;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	font-size: 30px;
+}
+
+#hero h3 {
+	color: white;
+    margin-bottom: 60px;
 }
 
 #hero .btn-get-started {
