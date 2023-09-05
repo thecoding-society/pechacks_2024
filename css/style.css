@@ -450,7 +450,12 @@ h5{
 
 .apply-devfolio{
 	padding: 0;
-	bo
+	
+}
+
+.apply-devfolio:hover{
+	background-color: none;
+	border-color: none;
 }
 
 
