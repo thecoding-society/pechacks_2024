@@ -1769,6 +1769,10 @@ h6 {
 	cursor: pointer;
 }
 
+.management{
+	width: 500px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
