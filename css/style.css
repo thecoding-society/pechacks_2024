@@ -1736,9 +1736,9 @@ section {
 	height: 18.75;
 	padding-left: 40px;
 }
-.wwe {
-	height: 12.5rem;
-	margin-left: 130px;
+#wwe {
+	width: 180px;
+	
 }
 
 .img-fluid {
@@ -1762,9 +1762,23 @@ h6 {
 	margin: 0;
 }
 
+#inasso{
+	/* center text */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
 #inasso-logo{
+	/* center */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 	padding-top: 10px;
 	width: 380px;
+
 }
 
 .links{
