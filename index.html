@@ -120,10 +120,56 @@
 					
 					
 				</div>
-
-
-				
-				
+				<script>
+					function updateTimer() {
+						future = Date.parse("jan 27, 2024 11:30:00");
+						now = new Date();
+						diff = future - now;
+					
+						days = Math.floor(diff / (1000 * 60 * 60 * 24));
+						hours = Math.floor(diff / (1000 * 60 * 60));
+						mins = Math.floor(diff / (1000 * 60));
+						secs = Math.floor(diff / 1000);
+					
+						d = days;
+						h = hours - days * 24;
+						m = mins - hours * 60;
+						s = secs - mins * 60;
+					
+						document.getElementById("timer")
+							.innerHTML =
+							'<div>' + d + '<span>Days</span></div>' +
+							'<div>' + h + '<span>Hours</span></div>' +
+							'<div>' + m + '<span>Minutes</span></div>' +
+							'<div>' + s + '<span>Seconds</span></div>';
+					}
+					setInterval('updateTimer()', 1000);
+					</script>
+					
+					<style>
+					#timer {
+					  	text-align: center;
+						font-size: 3em;
+						font-weight: 100;
+						color: white;
+						text-shadow: 0 0 20px #48C8FF;
+					}
+					
+					#timer div {
+						/* background-color: grey; */
+						display: inline-block;
+						min-width: 140px;
+					}
+					
+					#timer div span {
+						color: #B1CDF1;
+						display: block;
+						font-size: .5em;
+						font-weight: 800;
+					}
+					</style>
+					<br>
+					<div id="timer"></div>
 			</div>
 		</section>
 		<!-- End Hero -->
@@ -581,7 +627,7 @@
 							<!-- right block -->
 							<div class="timeline-component timeline-content">
 								<h3>Registration Starts</h3>
-								<p>15th September 2023</p>
+								<p>14th September 2023</p>
 							</div>
 
 							<!-- left block -->
@@ -762,7 +808,7 @@
 			<!-- End of judges -->
 
 			<!-- ======= Team Section ======= -->
-			<section id="team" class="team" style="padding-top: 0">
+			<!-- <section id="team" class="team" style="padding-top: 0">
 				<div class="container">
 					<div class="section-title">
 						<span>Team</span>
@@ -783,12 +829,12 @@
 									<a href="mailto:csbshod@panimalar.ac.in"
 										><i class="bi bi-envelope-fill"></i
 									></a>
-									<!-- <a href="https://github.com/aviiciii"
+									<a href="https://github.com/aviiciii"
 										><i class="bi bi-github"></i
 									></a>
 									<a href="https://www.instagram.com/llvssh/"
 										><i class="bi bi-instagram"></i
-									></a> -->
+									></a>
 									<a href="https://www.linkedin.com/in/anuradhadurairaj/"
 										><i class="bi bi-linkedin"></i
 									></a>
@@ -874,7 +920,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- End Team Section -->
 
 			<!-- ======= FAQ Section ======= -->
