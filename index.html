@@ -120,10 +120,56 @@
 					
 					
 				</div>
-
-
-				
-				
+				<script>
+					function updateTimer() {
+						future = Date.parse("jan 27, 2024 11:30:00");
+						now = new Date();
+						diff = future - now;
+					
+						days = Math.floor(diff / (1000 * 60 * 60 * 24));
+						hours = Math.floor(diff / (1000 * 60 * 60));
+						mins = Math.floor(diff / (1000 * 60));
+						secs = Math.floor(diff / 1000);
+					
+						d = days;
+						h = hours - days * 24;
+						m = mins - hours * 60;
+						s = secs - mins * 60;
+					
+						document.getElementById("timer")
+							.innerHTML =
+							'<div>' + d + '<span>Days</span></div>' +
+							'<div>' + h + '<span>Hours</span></div>' +
+							'<div>' + m + '<span>Minutes</span></div>' +
+							'<div>' + s + '<span>Seconds</span></div>';
+					}
+					setInterval('updateTimer()', 1000);
+					</script>
+					
+					<style>
+					#timer {
+					  	text-align: center;
+						font-size: 3em;
+						font-weight: 100;
+						color: white;
+						text-shadow: 0 0 20px #48C8FF;
+					}
+					
+					#timer div {
+						/* background-color: grey; */
+						display: inline-block;
+						min-width: 140px;
+					}
+					
+					#timer div span {
+						color: #B1CDF1;
+						display: block;
+						font-size: .5em;
+						font-weight: 800;
+					}
+					</style>
+					<br>
+					<div id="timer"></div>
 			</div>
 		</section>
 		<!-- End Hero -->
