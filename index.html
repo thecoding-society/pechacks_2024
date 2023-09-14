@@ -76,7 +76,7 @@
 						<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
 						<li><a class="nav-link scrollto" href="#about">About</a></li>
 						<li><a class="nav-link scrollto" href="#domains">Domains</a></li>
-						<li><a class="nav-link scrollto" href="#sponsors">Sponsors</a></li>
+						<li><a class="nav-link scrollto" href="#sponsors">Partners</a></li>
 						<li><a class="nav-link scrollto" href="#prizes">Prizes</a></li>
 						<li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
 						<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -97,39 +97,79 @@
 			>
 				<h1 class="non-selectable"><span>PEC</span> HACKS</h1>
 				<h2 class="non-selectable">
-					36-hr Hackathon &nbsp; | &nbsp; January <span>27 - 28</span>, 2024
+					36-hr Hackathon in Chennai&nbsp; | &nbsp; January <span>27 - 28</span>, 2024 <br> <br>
 				</h2>
-				
+
 
 				<div class="links" >
-					<a
-					href="https://forms.office.com/r/S40477q9bm"
-					class="btn-get-started scrollto"
-					target="_blank"
-					style="padding: 22px 28px"
-					>Pre-register here
-					</a>
+					<a href="https://pechacks.devfolio.co" class="btn-get-started scrollto" target="_blank" style="padding: 22px 28px">Register here</a>
 
 					<!-- <div class="apply-devfolio" id="apply-devfolio" style="padding: 10px 28px; border: none;">
 						<div class="apply-button" data-hackathon-slug="pechacks" data-button-theme="light" style="height: 40px; width: 312px"></div>
-					</div> -->
-					<br>
+					</div>
+					<br> -->
 
 					<a
 						href="https://chat.whatsapp.com/CG3ni2opMFPGZTDiG45kP0"
 						class="btn-get-started scrollto"
 						target="_blank"
-						style="padding: 14px 28px;"
+						style="padding: 18px 28px;"
 						>Join our Community ON <img id="whatsapp-logo" src="img/whatsapp.svg" alt="WhatsApp Logo">
 					</a>
 					<br>
 					
 					
 				</div>
-
-
-				
-				
+				<script>
+					function updateTimer() {
+						future = Date.parse("jan 27, 2024 11:30:00");
+						now = new Date();
+						diff = future - now;
+					
+						days = Math.floor(diff / (1000 * 60 * 60 * 24));
+						hours = Math.floor(diff / (1000 * 60 * 60));
+						mins = Math.floor(diff / (1000 * 60));
+						secs = Math.floor(diff / 1000);
+					
+						d = days;
+						h = hours - days * 24;
+						m = mins - hours * 60;
+						s = secs - mins * 60;
+					
+						document.getElementById("timer")
+							.innerHTML =
+							'<div>' + d + '<span>Days</span></div>' +
+							'<div>' + h + '<span>Hours</span></div>' +
+							'<div>' + m + '<span>Minutes</span></div>' +
+							'<div>' + s + '<span>Seconds</span></div>';
+					}
+					setInterval('updateTimer()', 1000);
+					</script>
+					
+					<style>
+					#timer {
+					  	text-align: center;
+						font-size: 3em;
+						font-weight: 100;
+						color: white;
+						text-shadow: 0 0 20px #48C8FF;
+					}
+					
+					#timer div {
+						/* background-color: grey; */
+						display: inline-block;
+						min-width: 140px;
+					}
+					
+					#timer div span {
+						color: #B1CDF1;
+						display: block;
+						font-size: .5em;
+						font-weight: 800;
+					}
+					</style>
+					<br>
+					<div id="timer"></div>
 			</div>
 		</section>
 		<!-- End Hero -->
@@ -165,7 +205,7 @@
 								solve real-world challenges, and make a meaningful difference."
 							</p>
 							<p class="prize-pool">
-								Prize Pool of <span>&#8377; 1.5 Lakh+</span> .
+								Prize Pool of <span>&#8377; 21 Lakh+</span> .
 							</p>
 						</div>
 					</div>
@@ -174,18 +214,38 @@
 				<div class="container">
 					<div class="section-title"></div>
 					<div class="row">
-						<div class="col-lg-6 order-1 order-lg-1 mt-lg-2">
+						
+						<div class="col-lg-6 order-1 order-lg-1 mt-lg-2 row justify-content-center" id="management">
+							<div class="section-title">
+								<span>Our Patrons</span>
+								<h2>Our Patrons</h2>
 						</div>
-						<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content">
-							<img src="img/pec-logo.png" class="img-fluid wwe" alt="hackathon-img" width="120px" height="220px" />
+							
+							<img src="img/team/management.png" class="management" />
+						</div>
+						<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content mt-lg-5">
 
-							<h4>Organized By</h4>
-							<p class="fst-italic about-para">
-								<span>Panimalar Engineering College</span>
-							</p>
+							<div class="row mt-lg-5">
+								<div class="col-lg-3">
+									<img src="img/pec-logo.png" class="img-fluid" id="wwe" alt="hackathon-img"   />
+								</div>
+								
+								<div class="col-lg-8 content mt-lg-4 ms-2">
+								<h4>Organized By</h4>
+								<p class="fst-italic about-para">
+									<span>Panimalar Engineering College </span> <br>
+									<span style="font-size: 1.2rem; ">(An Autonomous Institution)</span>
+								</p>
+								</div>
+							</div>
+							
 
-							<h4 id="inasso">In-association with</h4>
-							<img id="inasso-logo" src="img/sponsors/gdsc.svg" alt="gdsc" />
+							<div class="mt-lg-5 ">
+								<h4 id="inasso" >In-association with</h4>
+								<img id="inasso-logo" src="img/sponsors/gdsc.svg" alt="gdsc" />
+							</div>
+
+							
 						</div>
 					</div>
 				</div>
@@ -208,7 +268,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>01</span>
 								<h4>Blockchain & Web 3</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 
@@ -216,7 +275,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>02</span>
 								<h4>Artificial Intelligence</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 
@@ -224,7 +282,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>03</span>
 								<h4>Healthcare</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 
@@ -232,7 +289,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>04</span>
 								<h4>Social Impact</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 
@@ -240,7 +296,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>05</span>
 								<h4>High School Track</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 
@@ -248,7 +303,6 @@
 							<div class="box" data-aos="fade-up">
 								<span>06</span>
 								<h4>Open Track</h4>
-								<p>Open Problem Statement</p>
 							</div>
 						</div>
 					</div>
@@ -329,7 +383,7 @@
 					
 					<div class="row justify-content-center">
 
-						<div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="none" data-aos-delay="100" >
+						<div class="col-lg-4 col-md-6 align-items-stretch" data-aos="none" data-aos-delay="100" >
 							<a href="https://gen.xyz/" target="_blank">
 								<div class="icon-box">
 									<img src="img/sponsors/3.png" width="300px" id="partner-icon" alt="XYZ LOGO" />
@@ -337,10 +391,26 @@
 							</a>
 						</div>	
 
-						<div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="none" data-aos-delay="100" >
+						<div class="col-lg-4 col-md-6 align-items-stretch" data-aos="none" data-aos-delay="100" >
 							<a href="https://interviewbuddy.in/" target="_blank">
 								<div class="icon-box">
 									<img src="img/sponsors/1.png" width="300px" id="partner-icon" alt="INTERVIEWBUDDY LOGO" />
+								</div>
+							</a>
+						</div>
+						<br>
+						<div class="col-lg-4 col-md-6 align-items-stretch" data-aos="none" data-aos-delay="100" >
+							<a href="https://balsamiq.com/wireframes/" target="_blank">
+								<div class="icon-box">
+									<img src="img/sponsors/balsamiq.png" width="300px" height="130px" id="partner-icon" alt="BALSAMIQ LOGO" />
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="none" data-aos-delay="100" style="padding-top: 20px;">
+							<a href="https://www.wolfram.com/" target="_blank">
+								<div class="icon-box" style="padding: 45px;">
+									<img src="img/sponsors/wolfram.png" id="partner-icon" alt="WOLFRAM LOGO" style="width: 200px;"/>
 								</div>
 							</a>
 						</div>
@@ -475,6 +545,64 @@
 				</div>
 			</section>
 
+			<!-- partners prize pool -->
+			<section id="prizes" class="services team">
+				<div class="container">
+					<div class="section-title">
+						<span>Track Prizes</span>
+						<h2>Track Prizes</h2>
+					</div>
+					<!-- Prize section -->
+					<div class="row justify-content-center">
+						<div
+							class="col-lg-5 col-md-4 align-items-stretch"
+							data-aos=""
+							data-aos-delay="200">
+							<div class="member prize-card">
+								<img class="imgg imgg2" src="img/sponsors/7.png" alt="filecoin" width="500px" style="margin-bottom: 0px;" />
+								<h5>Best use of Filecoin and/or IPFS: ₹20,000</h5>
+							</div>
+						</div>
+						<div
+							class="col-lg-5 col-md-4 align-items-stretch"
+							data-aos=""
+							data-aos-delay="200">
+							<div class="member prize-card">
+								<img class="imgg imgg2" src="img/sponsors/8.png" alt="replit" width="500px" style="margin-bottom: 0px;" />
+								<h5>Winning Project deployed on Replit: ₹4000</h5>
+							</div>
+						</div>
+						<div
+							class="col-lg-5 col-md-4 align-items-stretch"
+							data-aos=""
+							data-aos-delay="200">
+							<div class="member prize-card">
+								<img class="imgg imgg2" src="img/sponsors/6.png" alt="solana" width="500px" style="margin-bottom: 0px;" />
+								<h5>Master Glasseater: ₹40,000<br>
+								Rising Teknoking : ₹20,000 <br>
+								Young Gun: ₹8,000
+							
+							</h5>
+
+								
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-4 align-items-stretch"
+							data-aos="">
+							<div class="member prize-card">
+								<img class="imgg imgg2" src="img/sponsors/5.png" alt="polygon" width="500px"style="margin-bottom: 0px;" />
+								<h5>Best hack on Ethereum & Polygon: ₹16,500</h5>
+								<h5>Best hack on Ethereum: ₹12,500</h5>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-4 align-items-stretch"
+							data-aos="">
+							<div class="member prize-card">
+								<img class="imgg imgg2" src="img/sponsors/wolfram-final.png" alt="wolfram" style="margin-bottom: 20px; border-radius: 0px;" />
+								<!-- <h5>Award for top 6 teams using Wolfram Tech</h5> -->
+								<h5>1 Year subscription to Wolfram|Alpha Pro for Top 6 Teams</h5>
+							</div>
+						</div>
 			<!-- End of prizes -->
 
 			<!-- ======= Schedule / Timeline Section ======= -->
@@ -499,7 +627,7 @@
 							<!-- right block -->
 							<div class="timeline-component timeline-content">
 								<h3>Registration Starts</h3>
-								<p>15th September 2023</p>
+								<p>14th September 2023</p>
 							</div>
 
 							<!-- left block -->
@@ -680,7 +808,7 @@
 			<!-- End of judges -->
 
 			<!-- ======= Team Section ======= -->
-			<section id="team" class="team" style="padding-top: 0">
+			<!-- <section id="team" class="team" style="padding-top: 0">
 				<div class="container">
 					<div class="section-title">
 						<span>Team</span>
@@ -688,7 +816,7 @@
 						<p>Meet Our Team</p>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-lg-4 col-md-4 d-flex" data-aos="none">
+						<div class="col-lg-3 col-md-3 d-flex" data-aos="none">
 							<div class="member">
 								<img class="imgg" src="img/team/3.png" alt="profilepic" />
 								<h4>Dr D Anuradha</h4>
@@ -701,12 +829,12 @@
 									<a href="mailto:csbshod@panimalar.ac.in"
 										><i class="bi bi-envelope-fill"></i
 									></a>
-									<!-- <a href="https://github.com/aviiciii"
+									<a href="https://github.com/aviiciii"
 										><i class="bi bi-github"></i
 									></a>
 									<a href="https://www.instagram.com/llvssh/"
 										><i class="bi bi-instagram"></i
-									></a> -->
+									></a>
 									<a href="https://www.linkedin.com/in/anuradhadurairaj/"
 										><i class="bi bi-linkedin"></i
 									></a>
@@ -715,9 +843,9 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row justify-content-center">
 						<div
-							class="col-lg-4 col-md-4 d-flex align-items-stretch"
+							class="col-lg-3 col-md-3 d-flex align-items-stretch"
 							data-aos="none"
 						>
 							<div class="member">
@@ -742,7 +870,7 @@
 						</div>
 
 						<div
-							class="col-lg-4 col-md-4 d-flex align-items-stretch"
+							class="col-lg-3 col-md-3 d-flex align-items-stretch"
 							data-aos="none"
 						>
 							<div class="member">
@@ -767,7 +895,7 @@
 						</div>
 
 						<div
-							class="col-lg-4 col-md-4 d-flex align-items-stretch"
+							class="col-lg-3 col-md-3 d-flex align-items-stretch"
 							data-aos="none"
 						>
 							<div class="member">
@@ -792,7 +920,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- End Team Section -->
 
 			<!-- ======= FAQ Section ======= -->
@@ -819,7 +947,7 @@
 						<div class="col-lg-5 half-width" data-aos="fade-left">
 							<div class="icon-box" id="faq-box">
 								<div class="icon"><i class="bi-question-lg"></i></div>
-								<p id="faq-question">Is there any registeration fee?</p>
+								<p id="faq-question">Is there any registration fee?</p>
 								<br />
 								<p id="faq-answer">
 									No, registrations are completely free of cost.
@@ -911,12 +1039,40 @@
 							</div>
 						</div>
 					</div>
+					
+
+			<div class="row">
+				<div class="col-lg-5 half-width" data-aos="fade-right">
+					<div class="icon-box" id="faq-box">
+						<div class="icon"><i class="bi-question-lg"></i></div>
+						<p id="faq-question">
+							Will you sponsor our travel costs?
+						</p>
+						<br />
+						<p id="faq-answer">No, the travel cost is your responsibility.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-5 half-width" data-aos="fade-left">
+					<div class="icon-box" id="faq-box">
+						<div class="icon"><i class="bi-question-lg"></i></div>
+						<p id="faq-question">Will there be any mentoring sessions</p>
+						<br />
+						<p id="faq-answer">
+							Yes, we will have virtual mentoring sessions for shortlisted participants of the hackathon.
+						</p>
+					</div>
+				</div>
+			</div>
 
 					<div class="row">
 						<a href="#contact">
-							<div class="" data-aos="fade-up">
-								<div class="icon-box" id="faq-box-contact">
-									<div class="icon"><i class="bi-question-lg"></i></div>
+							
+							
+								<div class="" data-aos="fade-up">
+									<div class="icon-box" id="faq-box">
+										<div class="icon"><i class="bi-question-lg"></i></div>
+										<p id="faq-question">
 									<p id="faq-contact-question">More Questions?</p>
 									<br />
 									<p id="faq-contact-answer">
@@ -1157,8 +1313,6 @@
 							<h4>Venue Address</h4>
 							<ul>
 								<p id="address">
-									The Coding Society,<br />
-									Department of Computer Science and Business Systems,<br />
 									Panimalar Engineering College, <br />
 									Nazarathpettai, Poonamallee, <br />
 									Chennai, Tamil Nadu - 600123
@@ -1182,7 +1336,7 @@
 								</li>
 								<li>
 									<i class="bx bx-chevron-right"></i>
-									<a href="https://psdc.org.in/"
+									<a href="https://www.linkedin.com/company/sdc-panimalar/"
 										>Panimalar Student Development Community</a
 									>
 								</li>
