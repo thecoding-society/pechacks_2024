@@ -1797,6 +1797,12 @@ h6 {
 	width: 500px;
 }
 
+.main_text{
+	/*center text */
+	display: flex;
+	justify-content: center;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
