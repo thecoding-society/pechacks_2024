@@ -300,6 +300,19 @@ h5{
 	.navbar ul {
 		display: none;
 	}
+
+	.changetocenter{
+		text-align: center;
+		color: var(--BGCOLOR);
+	}
+
+	.img-fluid{
+		padding: 20px 0;
+	}
+
+	#inasso{
+		padding: 20px 0 0;
+	}
 }
 
 .navbar-mobile {
@@ -607,6 +620,10 @@ section {
 
 	.section-title span {
 		font-size: 38px;
+	}
+
+	.changetocenter{
+		text-align: center;
 	}
 }
 
@@ -1762,6 +1779,7 @@ h6 {
 	padding: 0;
 	margin: 0;
 }
+
 
 #inasso{
 	/* center text */
