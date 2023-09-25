@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
 		<!-- Google tag (gtag.js) -->
 		<script
 			async
@@ -59,6 +60,8 @@
 		<link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 		<!-- css -->
 		<link href="css/style.css" rel="stylesheet" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 	</head>
 
 	<body>
@@ -97,11 +100,11 @@
 			>
 				<h1 class="non-selectable main_text"><span>PEC</span> HACKS</h1>
 				<h2 class="non-selectable main_text">
-					36-hr Hackathon in Chennai&nbsp; | &nbsp; January &nbsp;<span>27 - 28</span>, 2024 <br> <br>
+					36-hr Hackathon in Chennai |  January 27 - 28, 2024 <br> <br>
 				</h2>
 
-				<div class="links  justify-content-center" >
-					<a href="https://pechacks.devfolio.co" class="btn-get-started scrollto" target="_blank" style="padding: 22px 28px">Register here</a>
+				<div class="links justify-content-center" >
+					<a href="https://pechacks.devfolio.co" class="btn-get-started scrollto" target="_blank">Register here</a>
 
 					<!-- <div class="apply-devfolio" id="apply-devfolio" style="padding: 10px 28px; border: none;">
 						<div class="apply-button" data-hackathon-slug="pechacks" data-button-theme="light" style="height: 40px; width: 312px"></div>
@@ -112,7 +115,6 @@
 						href="https://chat.whatsapp.com/CG3ni2opMFPGZTDiG45kP0"
 						class="btn-get-started scrollto"
 						target="_blank"
-						style="padding: 18px 28px;"
 						>Join our Community ON <img id="whatsapp-logo" src="img/whatsapp.svg" alt="WhatsApp Logo">
 					</a>
 					
@@ -146,26 +148,7 @@
 					</script>
 					
 					<style>
-					#timer {
-					  	text-align: center;
-						font-size: 3em;
-						font-weight: 100;
-						color: white;
-						text-shadow: 0 0 20px #48C8FF;
-					}
 					
-					#timer div {
-						/* background-color: grey; */
-						display: inline-block;
-						min-width: 140px;
-					}
-					
-					#timer div span {
-						color: #B1CDF1;
-						display: block;
-						font-size: .5em;
-						font-weight: 800;
-					}
 					</style>
 					<br>
 					<div id="timer" class="non-selectable"></div>
@@ -222,16 +205,17 @@
 							
 							<img src="img/team/management.png" class="management" />
 						</div>
-						<div class="col-lg-6 pt-xl-5 pt-lg-0 order-2 order-lg-2 content mt-lg-5">
+						<div class="col-lg-6 pt-xl-5 pt-lg-0 order-2 order-lg-2">
 
-							<div class="row mt-lg-5">
-								<div class="col-lg-3">
+							<div class="row mt-lg-5 justify-content-center">
+
+								<div class="col-lg-3 row justify-content-center align-content-center">
 									<img src="img/pec-logo.png" class="img-fluid" id="wwe" alt="hackathon-img"   />
 								</div>
 								
-								<div class="col-lg-8 content mt-lg-4 ms-2">
-								<h4>Organized By</h4>
-								<p class="fst-italic about-para">
+								<div class="col-lg-8 mt-lg-4 ms-2 row justify-content-center">
+								<h4 id="changetocenter">Organized By</h4>
+								<p id="changetocenter" class="fst-italic about-para">
 									<span>Panimalar Engineering College </span> <br>
 									<span style="font-size: 1.2rem;">(An Autonomous Institution)</span>
 								</p>
@@ -262,6 +246,7 @@
 						<h2>Domains</h2>
 						<h6>Select your own problem statement under these domains</h6>
 					</div>
+					
 					<div class="row justify-content-center">
 						<div class="col-lg-4 mt-4">
 							<div class="box" data-aos="fade-up">
@@ -399,8 +384,8 @@
 						<br>
 						<div class="col-lg-4 col-md-6 align-items-stretch" data-aos="none" data-aos-delay="100" >
 							<a href="https://balsamiq.com/wireframes/" target="_blank">
-								<div class="icon-box">
-									<img src="img/sponsors/balsamiq.png" width="300px" height="130px" id="partner-icon" alt="BALSAMIQ LOGO" />
+								<div class="icon-box" style="padding: 15px 10px;">
+									<img src="img/sponsors/balsamiq.png" width="340px" id="partner-icon" alt="BALSAMIQ LOGO" />
 								</div>
 							</a>
 						</div>
@@ -517,7 +502,7 @@
 						data-aos=""
 						data-aos-delay="200">
 							<div class="member prize-card">
-								<img class="imgg imgg2" src="img/prize/winner.png" alt="profilepic" width="200px" height="200px" />
+								<img class="imgg imgg2" src="img/prize/winner.png" alt="profilepic" width="160px" />
 								<h2 class="prize-header">Winner</h2>
 								<h5>Cash Prize ₹60,000+</h5>
 							</div>
@@ -526,7 +511,7 @@
 							class="col-lg-4 col-md-4 align-items-stretch"
 							data-aos="">
 							<div class="member prize-card">
-								<img class="imgg imgg2" src="img/prize/runner-up.png" alt="runner-up" width="200px" height="200px" />
+								<img class="imgg imgg2" src="img/prize/runner-up.png" alt="runner-up" width="160px"  />
 								<h2 class="prize-header">Runner Up</h2>
 								<h5>Cash Prize ₹30,000+</h5>
 							</div>
@@ -536,7 +521,7 @@
 							data-aos=""
 							data-aos-delay="200">
 							<div class="member prize-card">
-								<img class="imgg imgg2" src="img/prize/second-runner-up.png" alt="profilepic" width="200px" height="200px"/>
+								<img class="imgg imgg2" src="img/prize/second-runner-up.png" alt="profilepic" width="160px" />
 								<h2 class="prize-header">Second Runner Up</h2>
 								<h5>Cash Prize ₹15,000+</h5>
 							</div>
@@ -546,8 +531,7 @@
 							data-aos=""
 							data-aos-delay="200">
 							<div class="member prize-card">
-								<img class="imgg imgg2" src="img/prize/school-track.png" alt="profilepic" width="230px" height="230px" style="
-								margin-bottom: 0px;"/>
+								<img class="imgg imgg2" src="img/prize/school-track.png" alt="profilepic" width="160px" style="margin-bottom: 0px;"/>
 								<h3 class="prize-header">Best High Schooler's Hack</h3>
 								<h5>Cash Prize ₹10,000+</h5>
 							</div>
