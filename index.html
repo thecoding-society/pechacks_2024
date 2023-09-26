@@ -129,19 +129,22 @@
 					
 						days = Math.floor(diff / (1000 * 60 * 60 * 24));
 						hours = Math.floor(diff / (1000 * 60 * 60));
-						mins = Math.floor(diff / (1000 * 60));
+						mins = Math.floor(diff / (1000 * 60)); 
+						secs = Math.floor(diff / 1000); 
 							
 					
 						d = days;
 						h = hours - days * 24;
 						m = mins - hours * 60;
+						s = secs - mins * 60; 
 						
 					
 						document.getElementById("timer")
 							.innerHTML =
 							'<div>' + d + '<span>Days</span></div>' +
 							'<div>' + h + '<span>Hours</span></div>' +
-							'<div>' + m + '<span>Minutes</span></div>' ;
+							'<div>' + m + '<span>Minutes</span></div>' + 
+							'<div>' + s + '<span>Seconds</span></div>' ;
 							
 					}
 					setInterval('updateTimer()', 1000);
@@ -214,8 +217,8 @@
 								</div>
 								
 								<div class="col-lg-8 mt-lg-4 ms-2 row justify-content-center">
-								<h4 id="changetocenter">Organized By</h4>
-								<p id="changetocenter" class="fst-italic about-para">
+								<h4 class="changetocenter">Organized By</h4>
+								<p class="changetocenter" class="fst-italic about-para">
 									<span>Panimalar Engineering College </span> <br>
 									<span style="font-size: 1.2rem;">(An Autonomous Institution)</span>
 								</p>
@@ -421,10 +424,8 @@
 						<h2>Community Partners</h2>
 						<!-- <p>Partners</p> -->
 					</div>
-
 					
 					<div class="row justify-content-center">
-
 						<div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="none" data-aos-delay="100" >
 							<a href="https://gdsc.community.dev/" target="_blank">
 								<div class="icon-box">
@@ -432,12 +433,14 @@
 								</div>
 							</a>
 						</div>
-
+						<div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0" data-aos="none" data-aos-delay="100" >
+							<a href="https://hackverse.tech/" target="_blank">
+								<div class="icon-box">
+									<img src="img/sponsors/Hackverse 2.0 Logo.jpeg" height="130px" id="partner-icon" alt="HACKVERSE LOGO" />
+								</div>
+							</a>
+						</div>
 					</div>
-
-
-
-
 				</div>
 			</section>
 
@@ -1301,12 +1304,17 @@
 
 						<div class="col-lg-4 col-md-6 footer-links">
 							<h4>Venue Address</h4>
-							<ul>
 								<p id="address">
 									Panimalar Engineering College, <br />
 									Nazarathpettai, Poonamallee, <br />
 									Chennai, Tamil Nadu - 600123
 								</p>
+							<h4>Branding Asset</h4>
+							<ul>
+								<li>
+									<i class="bx bx-chevron-right"></i>
+									<a href="https://assets.pechacks.org/">PEC Hacks Branding Asset</a>
+								</li>
 							</ul>
 						</div>
 
@@ -1326,8 +1334,7 @@
 								</li>
 								<li>
 									<i class="bx bx-chevron-right"></i>
-									<a href="https://www.linkedin.com/company/sdc-panimalar/"
-										>Panimalar Student Development Community</a
+									<a href="https://www.linkedin.com/company/sdc-panimalar/">Panimalar Student Development Community</a
 									>
 								</li>
 							</ul>
