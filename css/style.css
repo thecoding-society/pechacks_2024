@@ -1823,16 +1823,19 @@ h6 {
 /* timer */
 #timer {
 	text-align: center;
-  font-size: 3em;
-  font-weight: 100;
-  color: white;
-  text-shadow: 0 0 20px #48C8FF;
+	font-size: 3em;
+	font-weight: 100;
+	color: white;
+	text-shadow: 0 0 20px #48C8FF;
 }
 
 #timer div {
   /* background-color: grey; */
   display: inline-block;
   min-width: 140px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  
 }
 
 #timer div span {
