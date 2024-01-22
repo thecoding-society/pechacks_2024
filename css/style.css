@@ -1834,8 +1834,6 @@ h6 {
   display: inline-block;
   min-width: 140px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(30px);
-  
 }
 
 #timer div span {
