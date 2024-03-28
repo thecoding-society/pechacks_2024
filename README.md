@@ -1,6 +1,6 @@
-# PECHacks Website
+# PEC Hacks Website
 
-This is the official website developed for the PECHacks hackathon organized by The Coding Society. The website serves as a platform to provide information about the hackathon, registration details, event schedule, sponsors, and other relevant information.
+This is the official website developed for the PEC Hacks 2024 hackathon organized by The Coding Society. The website serves as a platform to provide information about the hackathon, registration details, event schedule, sponsors, and other relevant information.
 
 ## Features
 
@@ -16,7 +16,7 @@ This is the official website developed for the PECHacks hackathon organized by T
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap framework
+- Bootstrap Framework
 
 ## Getting Started
 
@@ -44,5 +44,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or suggestions regarding the website, please feel free to contact the organizing team at [peccodingsociety@gmail.com](mailto:peccodingsociety@gmail.com).
 
-**We look forward to your participation in PECHacks!**
+**Thank you for your contribution in making PECHacks a grand success!**
 
